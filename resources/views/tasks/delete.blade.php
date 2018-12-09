@@ -4,8 +4,8 @@
 
 <!-- ここにページ毎のコンテンツを書く -->
 
-<h1>削除しました</h1>
+<h1 class="text-center">削除しました</h1>
 
-{!! link_to_route('tasks.index', 'タスクリストに戻る', null, ['class' => 'btn btn-primary']) !!}
+{!! link_to_route('tasks.index', 'タスクリストに戻る', null, ['class' => 'btn btn-default btn-block']) !!}
 
 @endsection
